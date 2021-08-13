@@ -31,7 +31,8 @@ In Naive random oversampling, instances of the minority class are randomly selec
     
 #### SMOTE algorithm :
 In SMOTE, from an instance from the minority class, a number of its closest neighbors are chosen and based on the values of these neighbors, new values are created to balance the classes.
-![SMOTE]()
+
+![SMOTE](images/SMOTE.png)
 
 * The balanced accuracy score is 64 %
 * For high risk :
