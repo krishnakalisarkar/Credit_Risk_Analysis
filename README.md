@@ -95,7 +95,7 @@ The concept of ensemble algorithms is to combine multiple models to help improve
     
 #### Easy Ensemble AdaBoost Classifier algorithm :
 
-![AdaboostClassifier]()
+![AdaboostClassifier](images/ada_boost_combine.png)
 
 * The balanced accuracy score is 92 %
 * For high risk :
