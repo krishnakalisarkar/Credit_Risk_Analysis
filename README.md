@@ -38,11 +38,11 @@ In SMOTE, from an instance from the minority class, a number of its closest neig
 * The balanced accuracy score is 64 %
 * For high risk :
     1. The precision is 1% and sensitivity (recall) is 62% .
-    1.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    2. The F1-score which is a harmonic mean of the model's precision and recall is 2%.
     
 * For low risk:
-    1. The precision is 100 % and sensitivity (recall) is 69% .
-    1.The F1-score which is a harmonic mean of the model's precision and recall is 82%.
+    1. The precision is 100 % and sensitivity (recall) is 69%.
+    2. The F1-score which is a harmonic mean of the model's precision and recall is 82%.
     
 ### Undersampling
 Undersampling is another technique to address class imbalance.In the undersampling algorithms the size of the majority class is decreased.The undersampling algorithm that was applied is as follows:
