@@ -23,11 +23,11 @@ In Naive random oversampling, instances of the minority class are randomly selec
 * The balanced accuracy score is 64%
 * For high risk :
     1. The precision is 1% and sensitivity (recall) is 66% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 61% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 76%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 76%.
     
 #### SMOTE algorithm :
 In SMOTE, from an instance from the minority class, a number of its closest neighbors are chosen and based on the values of these neighbors, new values are created to balance the classes.
@@ -37,11 +37,11 @@ In SMOTE, from an instance from the minority class, a number of its closest neig
 * The balanced accuracy score is 64 %
 * For high risk :
     1. The precision is 1% and sensitivity (recall) is 62% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 69% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 82%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 82%.
     
 ### Undersampling
 Undersampling is another technique to address class imbalance.In the undersampling algorithms the size of the majority class is decreased.The undersampling algorithm that was applied is as follows:
@@ -54,11 +54,11 @@ This algorithm identifies clusters of the majority class, then generates synthet
 * The balanced accuracy score is 64 %
 * For high risk :
     1. The precision is 1% and sensitivity (recall) is 69% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 1%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 1%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 40% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 57%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 57%.
 
 ### Combination of Over and Under sampling
 SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.First, Oversample the minority class with SMOTE, followed by cleaning the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, those data point are dropped.
@@ -70,11 +70,11 @@ SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.First,
 * The balanced accuracy score is 64 %
 * For high risk :
     1. The precision is 1% and sensitivity (recall) is 72% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 57% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 73%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 73%.
 
 ### Ensemble Algorithms
 The concept of ensemble algorithms is to combine multiple models to help improve the accuracy and robustness, as well as decrease variance of the model, and therefore increase the overall performance of the model. The ensemble algorithms that are applied are as follows:
@@ -86,11 +86,11 @@ The concept of ensemble algorithms is to combine multiple models to help improve
 * The balanced accuracy score is 79 %
 * For high risk :
     1. The precision is 3% and sensitivity (recall) is 70% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 6%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 6%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 87% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 93%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 93%.
     
 #### Easy Ensemble AdaBoost Classifier algorithm :
 
@@ -99,11 +99,11 @@ The concept of ensemble algorithms is to combine multiple models to help improve
 * The balanced accuracy score is 92 %
 * For high risk :
     1. The precision is 5% and sensitivity (recall) is 93% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 10%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 10%.
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 90% .
-    11.The F1-score which is a harmonic mean of the model's precision and recall is 95%.
+    1.The F1-score which is a harmonic mean of the model's precision and recall is 95%.
 
 ## Summary: 
 #### Naive Random Over Sampler algorithm :
