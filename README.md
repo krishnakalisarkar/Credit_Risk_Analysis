@@ -50,7 +50,7 @@ Undersampling is another technique to address class imbalance.In the undersampli
 #### Cluster Centroid algorithm :
 This algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class.
 
-![clusteredCentroid]()
+![clusteredCentroid](images/cluster_centroid.png)
 
 * The balanced accuracy score is 64 %
 * For high risk :
@@ -66,7 +66,7 @@ SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.First,
 
 #### SMOTEEN algorithm :
 
-![SMOTEEN]()
+![SMOTEEN](images/SMOTEEN.png)
 
 * The balanced accuracy score is 64 %
 * For high risk :
