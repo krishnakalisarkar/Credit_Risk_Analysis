@@ -152,4 +152,4 @@ According to me, none of the above algorithms are suitable in detecting credit r
 * All the models have a very low precision score on detecting if the credit risk is high.
 * The sensitivity for low risk is also not great, hence this might affect the Lending Club in the long run to survive in business.
 * Comparatively, the ensemble models have a much higher sensitivity but with low precision meaning too many false positives in detecting the high risk loans.This again will hit the Lending Club in the long run.  
-Based, on all these reasons I would not recommend any of these algorithms to be applied for detecting credit risks for LendingClub.
+Based on all these reasons I would not recommend any of these algorithms to be applied for detecting credit risks for LendingClub.
