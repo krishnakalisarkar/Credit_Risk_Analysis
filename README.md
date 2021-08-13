@@ -22,12 +22,13 @@ In Naive random oversampling, instances of the minority class are randomly selec
 
 * The balanced accuracy score is 64%
 * For high risk :
-    1. The precision is 1% and sensitivity (recall) is 66% .
-    1.The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    1. The precision is 1% and sensitivity (recall) is 66% 
+    2. The F1-score which is a harmonic mean of the model's precision and recall is 2%.
+    
     
 * For low risk:
     1. The precision is 100 % and sensitivity (recall) is 61% .
-    1.The F1-score which is a harmonic mean of the model's precision and recall is 76%.
+    2. The F1-score which is a harmonic mean of the model's precision and recall is 76%.
     
 #### SMOTE algorithm :
 In SMOTE, from an instance from the minority class, a number of its closest neighbors are chosen and based on the values of these neighbors, new values are created to balance the classes.
