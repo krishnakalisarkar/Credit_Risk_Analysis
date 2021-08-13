@@ -18,7 +18,7 @@ Class imbalance is a situation in which the existing classes in a dataset aren't
 
 In Naive random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
 
-![random_oversampling]()
+![random_oversampling](images/random_oversampling.png)
 
 * The balanced accuracy score is 64%
 * For high risk :
