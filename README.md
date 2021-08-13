@@ -82,7 +82,7 @@ The concept of ensemble algorithms is to combine multiple models to help improve
 
 #### Balanced Random Forest Classifier algorithm :
 
-![BalancedRandomForest]()
+![BalancedRandomForest](images/random_forest_combine.png)
 
 * The balanced accuracy score is 79 %
 * For high risk :
